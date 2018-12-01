@@ -608,6 +608,7 @@ Right align row (method 2) ->|
 |  `[v] text` | checked |       |              | `<label><input type="checkbox" checked /> text</label>` |
 |  `[x] text` | checked | gray  | line-through | `<label style="color:gray;text-decoration:line-through;">`<br>`<input type="checkbox" checked disabled /> text</label>` |
 | `\[x] text` |         |       |              | `[x] text` |
+| `[\x] text` |         |       |              | `<span>x</span> text` |
 
 
 ### [2.8 Decorator／装饰器](#user-content-2.8)<a id="user-content-2.8">&nbsp;</a>
