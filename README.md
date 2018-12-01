@@ -604,9 +604,9 @@ Right align row (method 2) ->|
 | MarkDoc     | checked | color | decoration   | HTML |
 |:-----------:|:-------:|:-----:|:------------:|------|
 |  `[ ] text` |         |       |              | `<label><input type="checkbox" /> text</label>` |
-|  `[-] text` |         | gray  | line-through | `<label style="color:gray;text-decoration:line-through;"><input type="checkbox" disabled /> text</label>` |
+|  `[-] text` |         | gray  | line-through | `<label style="color:gray;text-decoration:line-through;">`<br>`<input type="checkbox" disabled /> text</label>` |
 |  `[v] text` | checked |       |              | `<label><input type="checkbox" checked /> text</label>` |
-|  `[x] text` | checked | gray  | line-through | `<label style="color:gray;text-decoration:line-through;"><input type="checkbox" checked disabled /> text</label>` |
+|  `[x] text` | checked | gray  | line-through | `<label style="color:gray;text-decoration:line-through;">`<br>`<input type="checkbox" checked disabled /> text</label>` |
 | `\[x] text` |         |       |              | `[x] text` |
 
 
