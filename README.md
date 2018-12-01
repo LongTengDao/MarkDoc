@@ -1,6 +1,6 @@
 
 
-[MarkDoc／标档（v0.1）][MarkDoc]
+[MarkDoc／标档（v0.2）][MarkDoc]
 ================================
 
 — A Markdown-like [jDoc]-based e-book writing format by [LongTengDao][LTD].  
@@ -559,7 +559,6 @@ Right align row (method 2) ->|
 | `__strong__`                | __strong__                      |                                                                |
 | `*emphasize*`               | *emphasize*                     |                                                                |
 | `\*escaped*`                | \*escaped*                      | The back slash is the escape symbol.／反斜杠是转义符号。       |
-| <code>trim\\&nbsp;&nbsp;spaces</code> | trimspaces            | Escaped spaces will be trimmed.／转义后的空格不会显示。        |
 | `<U+9F99>`<br>`<U+D842+DFB7>`<br>`<U+20BB7>` | 龙<br>𠮷<br>𠮷 | Unicode escape format is allowed.／允许使用 Unicode 转义格式。 |
 | `~~delete~~`                | ~~delete~~                      |                                                                |
 | `++insert++`                | <ins>insert</ins>               |                                                                |
