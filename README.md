@@ -1,6 +1,6 @@
 
 
-[MarkDoc／标档（v0.2）][MarkDoc]
+[MarkDoc／标档（v0.3）][MarkDoc]
 ================================
 
 — A Markdown-like [jDoc]-based e-book writing format by [LongTengDao][LTD].  
@@ -667,11 +667,11 @@ heading
 ### [2.9 Context Syntax／上下文语法](#user-content-2.9)<a id="user-content-2.9">&nbsp;</a>
 
 ````markdoc
-I need an auto ordered ["footnote"]{: mean }. #n#
+I need two auto ordered ["footnote"]{: mean }, the first#n#, and the second#[*Inline* format for simple content.]#.
 You ask why?
 Watch >>>wall<<< and ponder it. :small:
 
-我需要一个自动编号的[“脚注”]{: mean }。##n##
+我需要两个自动编号的[“脚注”]{: mean }，第一个##n##，和第二个##[简单内容的*内联*写法。]##。
 你问为什么？
 面>>>壁 => wall <<<思之。:small:
 
