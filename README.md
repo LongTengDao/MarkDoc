@@ -1,6 +1,6 @@
 
 
-[MarkDoc／标档（v0.3）][MarkDoc]
+[MarkDoc／标档（v0.4）][MarkDoc]
 ================================
 
 — A Markdown-like [jDoc]-based e-book writing format by [LongTengDao][LTD].  
@@ -688,8 +688,8 @@ Watch >>>wall<<< and ponder it. :small:
 <LF>	<U+000A>
 ````
 
-&nbsp; &nbsp; &nbsp;You can explicitly specify a position to display the "footnotes":  
-　　你可以为“脚注”明确指定插入位置：
+&nbsp; &nbsp; &nbsp;You can explicitly specify a position to display the "footnotes" (it's also the page break symbol):  
+　　你可以为“脚注”明确指定插入位置（它同时也是分页符）：
 
 ````markdoc
 ^^^
