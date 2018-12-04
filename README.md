@@ -1,6 +1,6 @@
 
 
-[MarkDoc／标档（v0.4）][MarkDoc]
+[MarkDoc／标档（v0.5）][MarkDoc]
 ================================
 
 — A Markdown-like [jDoc]-based e-book writing format by [LongTengDao][LTD].  
@@ -693,6 +693,10 @@ Watch >>>wall<<< and ponder it. :small:
 
 ````markdoc
 ^^^
+
+^^^	A4
+
+^^^	A4 A5
 ````
 
 
