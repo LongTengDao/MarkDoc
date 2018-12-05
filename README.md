@@ -1,6 +1,6 @@
 
 
-[MarkDoc／标档（v0.7）][MarkDoc]
+[MarkDoc／标档（v0.8）][MarkDoc]
 ================================
 
 — A Markdown-like [jDoc]-based e-book writing format by [LongTengDao][LTD].  
@@ -204,18 +204,24 @@ A.	ordered list style 2-1
 a.	ordered list style 3-1
 I.	ordered list style 4-1
 i.	ordered list style 5-1
+一、	序号列表 风格 6-1
+甲、	序号列表 风格 7-1
 
 (1)	ordered list style 1-2
 (A)	ordered list style 2-2
 (a)	ordered list style 3-2
 (I)	ordered list style 4-2
 (i)	ordered list style 5-2
+（一）	序号列表 风格 6-2
+（甲）	序号列表 风格 7-2
 
 1)	ordered list style 1-3
 A)	ordered list style 2-3
 a)	ordered list style 3-3
 I)	ordered list style 4-3
 i)	ordered list style 5-3
+一）	序号列表 风格 6-3
+甲）	序号列表 风格 7-3
 ```````
 
 #### [2.3.3 Named List／具名列表](#user-content-2.3.3)<a id="user-content-2.3.3">&nbsp;</a>
