@@ -1,7 +1,7 @@
 
 
-[MarkDoc／标档（v0.5）][MarkDoc]
-================================
+[MarkDoc／标档（v0.5.1）][MarkDoc]
+==================================
 
 — A Markdown-like [jDoc]-based e-book writing format by [LongTengDao][LTD].  
 —— 一个由 [龙腾道][LTD] 研发，基于 [jDoc]，类 Markdown 的电子书编纂格式。
@@ -649,8 +649,8 @@ paragraph block
 
 heading
 =======
->>>	.heading-class-1 .heading-class-2
->>>	title="I'm heading."
+>>>	.heading-class-1 title=`I'm heading.`
+>>>	.heading-class-2
 
 heading
 >>>	.heading-class
