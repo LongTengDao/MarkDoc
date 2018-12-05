@@ -1,7 +1,7 @@
 
 
-[MarkDoc／标档（v0.5.1）][MarkDoc]
-==================================
+[MarkDoc／标档（v0.6）][MarkDoc]
+================================
 
 — A Markdown-like [jDoc]-based e-book writing format by [LongTengDao][LTD].  
 —— 一个由 [龙腾道][LTD] 研发，基于 [jDoc]，类 Markdown 的电子书编纂格式。
@@ -497,6 +497,12 @@ ___
 :	$$	E=mc^2
 	=======================
 	Mass–Energy Equivalence
+````
+
+````markdoc
+:<-	left float／居左（文字右侧环绕）
+
+->:	right float／居右（文字左侧环绕）
 ````
 
 #### [2.6.4 Custom Field Set／自定义容器](#user-content-2.6.4)<a id="user-content-2.6.4">&nbsp;</a>
