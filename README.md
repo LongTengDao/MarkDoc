@@ -1,6 +1,6 @@
 ﻿
 
-[MarkDoc／标档（v0.8）][MarkDoc]
+[MarkDoc／标档（v0.9）][MarkDoc]
 ================================
 
 — A Markdown-like [jDoc]-based e-book writing format by [LongTengDao][LTD].  
@@ -599,6 +599,7 @@ Right align row (method 2) ->|
 | `很𠮷<ji2>利`               | 很<ruby>𠮷<rt>jí</rt></ruby>利 | `很<U+20BB7><ji2>利` should also be parsed correctly.<br>`很<U+20BB7><ji2>利` 也应当能够被正确解析。 |
 | <code>\` code \`</code><br><code>\`\\\`<U+9F99>\\\`\`</code> | <code>\`&nbsp;code&nbsp;\`</code><br><code>\`龙\`</code> | Codes quoted by single back quote are allowed to contain escape format.<br>单个反引号包裹的代码允许包含转义。 |
 | <code>\`\` \\\` \`\`</code><br><code>\`\` \`\`\` \`\`</code><br><code>\`\`&nbsp;&nbsp;\`\`\`&nbsp;&nbsp;\`\`</code> | <code>\\\`</code><br><code>\`\`\`</code><br><code>&nbsp;\`\`\`&nbsp;</code> | Code quoted by two or more back quotes are not allowed to contain escape format, and must be wrapped inside by one space on each side, which will be trimmed.<br>两个以上反引号包裹的代码不允许包含转义，并且内侧必须各有一个会被剔除的空格。 |
+| <code>\*\`lang\`\*\`.js\`</code> | <code><em>lang</em>.txt</code> | `<code><em>lang</em>.txt</code>`                           |
 | `$E=mc^2$`               | *E＝mc<sup><small>2</small></sup>* | Math expressions wrapped by dollar will not parse escaped characters at all.<br>由美元包裹的数学表达式完全不解释字符转义。 |
 
 &nbsp; &nbsp; &nbsp;And some GitHub not support for previewing:  
