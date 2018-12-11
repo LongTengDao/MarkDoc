@@ -237,7 +237,7 @@ term 4
 :	term 3 & 4 description paragraph
 ```````
 
-#### [2.3.4 Foldable Tree／折叠列表](#user-content-2.3.4)<a id="user-content-2.3.4">&nbsp;</a>
+#### [2.3.4 Foldable List／折叠列表](#user-content-2.3.4)<a id="user-content-2.3.4">&nbsp;</a>
 
 ``````` .markdoc
 summary (default open)
