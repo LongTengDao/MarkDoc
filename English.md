@@ -500,7 +500,7 @@ Right align row (method 2) ->|
 | `很𠮷<ji2>利`               | 很<ruby>𠮷<rt>jí</rt></ruby>利 | `很<U+20BB7><ji2>利` should also be parsed correctly. |
 | <code>\` code \`</code><br><code>\`\\\`<U+9F99>\\\`\`</code> | <code>\`&nbsp;code&nbsp;\`</code><br><code>\`龙\`</code> | Codes quoted by single back quote are allowed to contain escape format. |
 | <code>\`\` \\\` \`\`</code><br><code>\`\` \`\`\` \`\`</code><br><code>\`\`&nbsp;&nbsp;\`\`\`&nbsp;&nbsp;\`\`</code> | <code>\\\`</code><br><code>\`\`\`</code><br><code>&nbsp;\`\`\`&nbsp;</code> | Code quoted by two or more back quotes are not allowed to contain escape format, and must be wrapped inside by one space on each side, which will be trimmed. |
-| <code>\*\`lang\`\*\`.js\`</code> | <code><em>lang</em>.txt</code> | `<code><em>lang</em>.txt</code>`                           |
+| <code>\*\`lang\`\*\`.js\`</code> | <code><em>lang</em>.txt</code> | `<code><em>lang</em>.txt</code>` (HTML)                    |
 | `$E=mc^2$`               | *E＝mc<sup><small>2</small></sup>* | Math expressions wrapped by dollar will not parse escaped characters at all. |
 
 &nbsp; &nbsp; &nbsp;And some GitHub not support for previewing:
