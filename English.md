@@ -504,12 +504,12 @@ Right align row (method 2) ->|
 
 &nbsp; &nbsp; &nbsp;And some GitHub not support for previewing:
 
-|       MarkDoc                                            |       HTML                                                                                  |
-|----------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| <code>\*\`lang\`\*\`.js\`</code>                         | `<code><em>lang</em>.txt</code>`                                                            |
-| `==mark==`                                               | `<mark style="background-color:yellow;">mark</mark>`                                        |
-| <code>\|\|bordered\|\|</code>                            | `<span style="border-style:solid;">bordered</span>`                                         |
-| `normal^^sup^^//sub//text`<br>`normal//sub//^^sup^^text` | `normal<small style="display:inline-block;vertical-align:-0.5em;">sup<br />sub</small>text` |
+|       MarkDoc                                            |       HTML                                           |
+|----------------------------------------------------------|------------------------------------------------------|
+| <code>\*\`lang\`\*\`.js\`</code>                         | `<code><em>lang</em>.txt</code>`                     |
+| `==mark==`                                               | `<mark style="background-color:yellow;">mark</mark>` |
+| <code>\|\|bordered\|\|</code>                            | `<span style="border-style:solid;">bordered</span>`  |
+| `normal^^sup^^//sub//text`<br>`normal//sub//^^sup^^text` | `normal<small style="display:inline-block;vertical-align:-0.5em;">`<br>&nbsp;　　　　　　　　　　　　　　　　　　　　`sup<br />sub</small>text` |
 
 #### [2.7.3 Link](#user-content-2.7.3)<a id="user-content-2.7.3">&nbsp;</a>
 
