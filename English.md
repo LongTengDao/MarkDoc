@@ -20,7 +20,7 @@ TOC
 		2.	[Ordered List](#user-content-2.3.2)
 		3.	[Foldable List](#user-content-2.3.3)
 	4.	[Table](#user-content-2.4)
-	5.	[Pre-fomatted Block](#user-content-2.5)
+	5.	[Pre-formatted Block](#user-content-2.5)
 		1.	[Highlight Code](#user-content-2.5.1)
 		2.	[Renderable Code](#user-content-2.5.2)
 		3.	[Math Formula](#user-content-2.5.3)
@@ -230,7 +230,7 @@ i)	ordered list style 5-3
 ````````
 
 
-### [2.5 Pre-fomatted Block](#user-content-2.5)<a id="user-content-2.5">&nbsp;</a>
+### [2.5 Pre-formatted Block](#user-content-2.5)<a id="user-content-2.5">&nbsp;</a>
 
 #### [2.5.1 Highlight Code](#user-content-2.5.1)<a id="user-content-2.5.1">&nbsp;</a>
 
