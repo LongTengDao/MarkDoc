@@ -161,24 +161,24 @@ A.	ordered list style 2-1
 a.	ordered list style 3-1
 I.	ordered list style 4-1
 i.	ordered list style 5-1
-一、	ordered list style 6-1
-甲、	ordered list style 7-1
+一、	ordered list style 6-1 (Chinese)
+甲、	ordered list style 7-1 (Chinese)
 
 (1)	ordered list style 1-2
 (A)	ordered list style 2-2
 (a)	ordered list style 3-2
 (I)	ordered list style 4-2
 (i)	ordered list style 5-2
-（一）	ordered list style 6-2
-（甲）	ordered list style 7-2
+（一）	ordered list style 6-2 (Chinese)
+（甲）	ordered list style 7-2 (Chinese)
 
 1)	ordered list style 1-3
 A)	ordered list style 2-3
 a)	ordered list style 3-3
 I)	ordered list style 4-3
 i)	ordered list style 5-3
-一）	ordered list style 6-3
-甲）	ordered list style 7-3
+一）	ordered list style 6-3 (Chinese)
+甲）	ordered list style 7-3 (Chinese)
 ````````
 
 #### [2.3.3 Foldable List](#user-content-2.3.3)<a id="user-content-2.3.3">&nbsp;</a>
