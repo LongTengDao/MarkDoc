@@ -513,12 +513,12 @@ Right align row (method 2) ->|
 
 #### [2.7.3 Link](#user-content-2.7.3)<a id="user-content-2.7.3">&nbsp;</a>
 
-|       MarkDoc                                 |       HTML                                                                            |
-|-----------------------------------------------|---------------------------------------------------------------------------------------|
-| `>> www.龙腾道.com <<`                        | `<a href="http://www.xn--r70at71adql.com/" target="_blank">`<br>`www.龙腾道.com</a>`  |
-| `>> 龙腾道 ~> http://www.LongTengDao.com/ <<` | `<a href="http://www.LongTengDao.com/" target="_blank">龙腾道</a>`                    |
-| `>> top -> # <<`                              | `<a href="#">top</a>`                                                                 |
-| `>> [ -> home ] -> / <<`                      | `<a href="/"> -> home </a>`                                                           |
+|       MarkDoc                                 |       HTML                                                                                       |
+|-----------------------------------------------|--------------------------------------------------------------------------------------------------|
+| `>> www.龙腾道.com <<`                        | `<a href="http://www.xn--r70at71adql.com/" target="_blank">`<br>&nbsp;&nbsp;`www.龙腾道.com</a>` |
+| `>> 龙腾道 ~> http://www.LongTengDao.com/ <<` | `<a href="http://www.LongTengDao.com/" target="_blank">龙腾道</a>`                               |
+| `>> top -> # <<`                              | `<a href="#">top</a>`                                                                            |
+| `>> [ -> home ] -> / <<`                      | `<a href="/"> -> home </a>`                                                                      |
 
 &nbsp; &nbsp; &nbsp;The wrapper `>` and `<` can be two or more.
 
@@ -535,9 +535,9 @@ Right align row (method 2) ->|
 |   MarkDoc   | checked | color |  decoration  | HTML |
 |:-----------:|:-------:|:-----:|:------------:|------|
 |  `[ ] text` |         |       |              | `<label><input type="checkbox" /> text</label>` |
-|  `[-] text` |         | gray  | line-through | `<label style="color:gray;text-decoration:line-through;">`<br>`<input type="checkbox" disabled /> text</label>` |
+|  `[-] text` |         | gray  | line-through | `<label style="color:gray;text-decoration:line-through;">`<br>&nbsp;&nbsp;`<input type="checkbox" disabled /> text</label>` |
 |  `[v] text` | checked |       |              | `<label><input type="checkbox" checked /> text</label>` |
-|  `[x] text` | checked | gray  | line-through | `<label style="color:gray;text-decoration:line-through;">`<br>`<input type="checkbox" checked disabled /> text</label>` |
+|  `[x] text` | checked | gray  | line-through | `<label style="color:gray;text-decoration:line-through;">`<br>&nbsp;&nbsp;`<input type="checkbox" checked disabled /> text</label>` |
 | `\[x] text` |         |       |              | `[x] text` |
 | `[\x] text` |         |       |              | `<span>x</span> text` |
 
