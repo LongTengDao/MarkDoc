@@ -1,6 +1,6 @@
 # http://editorconfig.org
 
-[README.md]
+[*.md]
 charset = utf-8-bom
 indent_style = tab
 indent_size = 8
