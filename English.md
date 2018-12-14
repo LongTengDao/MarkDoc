@@ -1,7 +1,7 @@
 
 
-[MarkDoc（v0.11）](https://GitHub.com/LongTengDao/MarkDoc/)
-==================
+[MarkDoc (v0.11)](https://GitHub.com/LongTengDao/MarkDoc/)
+=================
 
 — A Markdown-like [jDoc](https://GitHub.com/LongTengDao/jDoc/)\-based e-book writing format by [LongTengDao](http://www.LongTengDao.com/).
 
