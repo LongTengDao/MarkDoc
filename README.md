@@ -346,16 +346,17 @@ i)	ordered list style 5-3
 ````````markdoc
 ~~~	gantt
 	
-	dateFormat	YYYY-MM-DD
+	dateFormat YYYY-MM-DD
 	
-	title	Plan
+	title      Plan
 	
-	section	A
-		task 1:	done,	1979-01-01,	2000-01-01
-		task 2:	active,	1990-06-01,	28d
-		task 3:		2018-11-26,	1d
+	section    A
+	           
+	           task 1:   done,   1979-01-01,  2000-01-01
+	           task 2:  active,  1990-06-01,  28d
+	           task 3:           2018-11-26,  1d
 	
-	section	B
+	section    B
 ````````
 
 &nbsp; &nbsp; &nbsp;Renderable code block which renderer is not implemented, should be implemented by default like:  
