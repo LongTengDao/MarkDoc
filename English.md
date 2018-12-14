@@ -505,20 +505,20 @@ Right align row (method 2) ->|
 
 &nbsp; &nbsp; &nbsp;And some GitHub not support for previewing:
 
-|       MarkDoc                                    |       HTML                                                                              |
-|--------------------------------------------------|-----------------------------------------------------------------------------------------|
-| `==mark==`                                       | `<mark style="background-color:yellow;">mark</mark>`                                    |
-| <code>\|\|bordered\|\|</code>                    | `<span style="border-style:solid;">bordered</span>`                                     |
-| `normal^^sup^^//sub//`<br>`normal//sub//^^sup^^` | `normal<small style="display:inline-block;vertical-align:-0.5em;">sup<br />sub</small>` |
+|       MarkDoc                                            |       HTML                                                                                  |
+|----------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| `==mark==`                                               | `<mark style="background-color:yellow;">mark</mark>`                                        |
+| <code>\|\|bordered\|\|</code>                            | `<span style="border-style:solid;">bordered</span>`                                         |
+| `normal^^sup^^//sub//text`<br>`normal//sub//^^sup^^text` | `normal<small style="display:inline-block;vertical-align:-0.5em;">sup<br />sub</small>text` |
 
 #### [2.7.3 Link](#user-content-2.7.3)<a id="user-content-2.7.3">&nbsp;</a>
 
-|       MarkDoc                                 |       HTML                                                                      |
-|-----------------------------------------------|---------------------------------------------------------------------------------|
-| `>> www.龙腾道.com <<`                        | `<a href="http://www.xn--r70at71adql.com/" target="_blank">www.龙腾道.com</a>`  |
-| `>> 龙腾道 ~> http://www.LongTengDao.com/ <<` | `<a href="http://www.LongTengDao.com/" target="_blank">龙腾道</a>`              |
-| `>> top -> # <<`                              | `<a href="#">top</a>`                                                           |
-| `>> [ -> home ] -> / <<`                      | `<a href="/"> -> home </a>`                                                     |
+|       MarkDoc                                 |       HTML                                                                            |
+|-----------------------------------------------|---------------------------------------------------------------------------------------|
+| `>> www.龙腾道.com <<`                        | `<a href="http://www.xn--r70at71adql.com/" target="_blank">`<br>`www.龙腾道.com</a>`  |
+| `>> 龙腾道 ~> http://www.LongTengDao.com/ <<` | `<a href="http://www.LongTengDao.com/" target="_blank">龙腾道</a>`                    |
+| `>> top -> # <<`                              | `<a href="#">top</a>`                                                                 |
+| `>> [ -> home ] -> / <<`                      | `<a href="/"> -> home </a>`                                                           |
 
 &nbsp; &nbsp; &nbsp;The wrapper `>` and `<` can be two or more.
 
