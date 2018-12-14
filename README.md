@@ -1,6 +1,6 @@
 ﻿
 
-[MarkDoc／标档（v0.10）][MarkDoc]
+[MarkDoc／标档（v0.11）][MarkDoc]
 =================================
 
 — A Markdown-like [jDoc]-based e-book writing format by [LongTengDao][LTD].  
@@ -24,8 +24,7 @@ TOC／目录
 	3.	[List Tree／列表树](#user-content-2.3)
 		1.	[Basic List／普通列表](#user-content-2.3.1)
 		2.	[Ordered List／序号列表](#user-content-2.3.2)
-		3.	[Named List／具名列表](#user-content-2.3.3)
-		4.	[Foldable List／折叠列表](#user-content-2.3.4)
+		3.	[Foldable List／折叠列表](#user-content-2.3.3)
 	4.	[Table／表格](#user-content-2.4)
 	5.	[Pre-fomatted Block／预格式块](#user-content-2.5)
 		1.	[Highlight Code／源码高亮](#user-content-2.5.1)
@@ -224,44 +223,15 @@ i)	ordered list style 5-3
 甲）	序号列表 风格 7-3
 ```````
 
-#### [2.3.3 Named List／具名列表](#user-content-2.3.3)<a id="user-content-2.3.3">&nbsp;</a>
+#### [2.3.3 Foldable List／折叠列表](#user-content-2.3.3)<a id="user-content-2.3.3">&nbsp;</a>
 
 ``````` .markdoc
-term 1
-:	term 1 description paragraph
-term 2
-:	term 2 description 1 paragraph
-:	term 2 description 2 paragraph
-term 3
-term 4
-:	term 3 & 4 description paragraph
-```````
-
-#### [2.3.4 Foldable List／折叠列表](#user-content-2.3.4)<a id="user-content-2.3.4">&nbsp;</a>
-
-``````` .markdoc
-summary (default open)
--	
-	detail paragraph
-	
-summary (default fold)
-+	
-	detail paragraph
-```````
-
-``````` .markdoc
-
--	summary (default open)
-	======================
-	
-	detail paragraph
-	
-	
-+	summary (default fold)
-	======================
-	
-	detail paragraph
-	
+-	summary
+	=======
+	detail paragraph (default open)
++	summary
+	=======
+	detail paragraph (default fold)
 ```````
 
 
@@ -273,6 +243,13 @@ summary (default fold)
 ```````
 
 ``````` .markdoc
+|	R1C1L1	R1C2L1
+	R1C1L2	R1C2L2
+|	R2C1L1	R2C2L1
+	R2C1L2	R2C2L2
+```````
+
+``````` .markdoc
 |_	head	head
 |	cell	cell
 |	cell	cell
@@ -281,15 +258,7 @@ summary (default fold)
 ``````` .markdoc
 |_	head	head
 |	cell	cell
-|_	cell	cell
-|	foot	foot
-```````
-
-``````` .markdoc
-|_	head	head
 |	cell	cell
-|_	cell	cell
-|	foot	foot
 |=	Table Caption (below)
 ```````
 
@@ -297,14 +266,7 @@ summary (default fold)
 |=	Table Caption (above)
 |_	head	head
 |	cell	cell
-|_	cell	cell
-|	foot	foot
-```````
-
-``````` .markdoc
 |	cell	cell
-	cell	cell
-	cell	cell
 ```````
 
 
