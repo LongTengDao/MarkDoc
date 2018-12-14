@@ -107,18 +107,19 @@ __________
 
 ### [2.1 Paragraph／段落](#user-content-2.1)<a id="user-content-2.1">&nbsp;</a>
 
-``````` .markdoc
+````````markdoc
 Paragraph 1 row 1
 Paragraph 1 row 2
 
 Paragraph 2 row 1 \
 Paragraph 2 row 1 rest
-```````
+````````
 
 
 ### [2.2 Outline Tree／大纲树](#user-content-2.2)<a id="user-content-2.2">&nbsp;</a>
 
-``````` .markdoc
+````````markdoc
+
 ===============
 Article heading
 文章标题
@@ -129,14 +130,12 @@ Chapter 1 heading
 第 1 章标题
 -------	
 	
-	
 	Section 1.1 heading
 	第 1 节标题
 	-------	
 		
 		Paragraph
 		段落
-	
 	
 	Section 1.2 heading
 	-------	
@@ -148,13 +147,11 @@ Chapter 2 heading row 1
 Chapter 2 heading row 2
 -------	
 	
-	
 	Section 2.1 (in exclusive page) heading (also as link text in menu bar)
 	第 2.1 节（位于独立页面）标题（也作为菜单栏链接文字）
 	+++++++	
 		
 		Paragraph
-	
 	
 	Section 2.2 link text in menu bar (specify it separately)
 	第 2.2 节菜单栏链接文字（单独指定）
@@ -166,14 +163,15 @@ Chapter 2 heading row 2
 		
 		Paragraph
 
-```````
+
+````````
 
 
 ### [2.3 List Tree／列表树](#user-content-2.3)<a id="user-content-2.3">&nbsp;</a>
 
 #### [2.3.1 Basic List／普通列表](#user-content-2.3.1)<a id="user-content-2.3.1">&nbsp;</a>
 
-``````` .markdoc
+````````markdoc
 *	list item 1 row 1
 	list item 1 row 2
 	
@@ -186,18 +184,18 @@ Chapter 2 heading row 2
 	*	sub list 1 item 2
 	
 	list item 3 paragraph
-```````
+````````
 
 #### [2.3.2 Ordered List／序号列表](#user-content-2.3.2)<a id="user-content-2.3.2">&nbsp;</a>
 
-``````` .markdoc
+````````markdoc
 1.	ordered list item 1 row 1
 	ordered list item 1 row 2
 2.	ordered list item 2
 3.	ordered list item 3
-```````
+````````
 
-``````` .markdoc
+````````markdoc
 1.	ordered list style 1-1
 A.	ordered list style 2-1
 a.	ordered list style 3-1
@@ -221,77 +219,77 @@ I)	ordered list style 4-3
 i)	ordered list style 5-3
 一）	序号列表 风格 6-3
 甲）	序号列表 风格 7-3
-```````
+````````
 
 #### [2.3.3 Foldable List／折叠列表](#user-content-2.3.3)<a id="user-content-2.3.3">&nbsp;</a>
 
-``````` .markdoc
+````````markdoc
 -	summary
 	=======
 	detail paragraph (default open)
 +	summary
 	=======
 	detail paragraph (default fold)
-```````
+````````
 
 
 ### [2.4 Table／表格](#user-content-2.4)<a id="user-content-2.4">&nbsp;</a>
 
-``````` .markdoc
+````````markdoc
 |	cell	cell
 |	cell	cell
-```````
+````````
 
-``````` .markdoc
+````````markdoc
 |_	head	head
 |	cell	cell
 |	cell	cell
-```````
+````````
 
-``````` .markdoc
+````````markdoc
 |_	head	head
 |	cell	cell
 |	cell	cell
 |=	Table Caption (below)
-```````
+````````
 
-``````` .markdoc
+````````markdoc
 |=	Table Caption (above)
 |_	head	head
 |	cell	cell
 |	cell	cell
-```````
+````````
 
-``````` .markdoc
+````````markdoc
 |=	Multi-lines cell syntax example:
 	多行单元格语法示例：
 |_		A	B	C	D
-|	1	Line	Line	Line	Line
-|	2	Line 1	Line 1	Line 1	Line 1
-		Line 2	Line 2	Line 2	Line 2
-|	3	Line	Line	Line	Line
-```````
+|	1	line	line	line	line
+|	2	line 1	line 1	line 1	line 1
+		line 2	line 2	line 2	line 2
+|	3	line	line	line	line
+````````
 
 
 ### [2.5 Pre-fomatted Block／预格式块](#user-content-2.5)<a id="user-content-2.5">&nbsp;</a>
 
 #### [2.5.1 Highlight Code／源码高亮](#user-content-2.5.1)<a id="user-content-2.5.1">&nbsp;</a>
 
-``````` .markdoc
+````````markdoc
 ```	.codeType
 	code row 1
 	code row 2
 	code row 3
-```````
+````````
 
-``````` .markdoc
+````````markdoc
 ```	.codeType
 	code row 10
 11	code row 11
 	code row 12
-```````
+````````
 
-``````` .markdoc
+````````markdoc
 ```	.codeType
 	code row 10
 11	code row 11
@@ -301,28 +299,28 @@ i)	ordered list style 5-3
 20	code row 20
 	code row 21
 	code row 22
-```````
+````````
 
 &nbsp; &nbsp; &nbsp;Code block which type is not implemented, should be implemented as plain (no highlight) by default.  
 　　渲染组件未实现的代码块，应当被默认实现为纯文本（无高亮）。
 
 #### [2.5.2 Renderable Code／脚本渲染](#user-content-2.5.2)<a id="user-content-2.5.2">&nbsp;</a>
 
-``````` .markdoc
+````````markdoc
 ~~~	rendererName.codeType
 	code row 1
 	code row 2
-```````
+````````
 
 &nbsp; &nbsp; &nbsp;Examples (just examples, not promised, each type need implementation supporting):  
 　　例子（仅仅是例子，不做保证，每种类型都需要实现支持）：
 
-``````` .markdoc
+````````markdoc
 ~~~	.html
 	<button onclick="alert('I am a HTML fragment.');">click me</button>
-```````
+````````
 
-``````` .markdoc
+````````markdoc
 ~~~	.css
 	strong {
 		font-weight: normal;
@@ -332,9 +330,9 @@ i)	ordered list style 5-3
 	-webkit-text-emphasis-position: under right;
 		text-emphasis-position: under right;
 	}
-```````
+````````
 
-``````` .markdoc
+````````markdoc
 ~~~	.rst
 	+---------+--------+----------+
 	| group   | item   |   desc   |
@@ -343,9 +341,9 @@ i)	ordered list style 5-3
 	| group 1 +--------+ - desc 2 |
 	|         | item 2 | - desc 3 |
 	+---------+--------+----------+
-```````
+````````
 
-``````` .markdoc
+````````markdoc
 ~~~	gantt
 	
 	dateFormat	YYYY-MM-DD
@@ -358,41 +356,41 @@ i)	ordered list style 5-3
 		task 3:		2018-11-26,	1d
 	
 	section	B
-```````
+````````
 
 &nbsp; &nbsp; &nbsp;Renderable code block which renderer is not implemented, should be implemented by default like:  
 　　渲染组件未实现的可渲染代码块，应当被默认实现为类似：
 
-~~~~~~~ .html
+~~~~~~~~html
 <fieldset>
 	<legend>rendererName.codeType</legend>
 	pre code, highlight better (if code type is implemented)
 </fieldset>
-~~~~~~~
+~~~~~~~~
 
 #### [2.5.3 Math Formula／数学公式](#user-content-2.5.3)<a id="user-content-2.5.3">&nbsp;</a>
 
-``````` .markdoc
+````````markdoc
 $$	formula expression row 1
 	formula expression row 2
-```````
+````````
 
 &nbsp; &nbsp; &nbsp;It is short for (not promised, everything could be customed):  
 　　它是下面形式的简写（不做保证，任何东西都可能被自定义过）：
 
-``````` .markdoc
+````````markdoc
 ~~~	math
 	formula expression row 1
 	formula expression row 2
-```````
+````````
 
 #### [2.5.4 Media／多媒体](#user-content-2.5.4)<a id="user-content-2.5.4">&nbsp;</a>
 
-``````` .markdoc
+````````markdoc
 ::	./small.png
-```````
+````````
 
-``````` .markdoc
+````````markdoc
 ::	./small.png
 	
 	Alternative text description of the image, like ":)".
@@ -400,9 +398,9 @@ $$	formula expression row 1
 	
 	图片的替代文本描述，比如“:)”。
 	描述可以多行，不过只会被作为纯文本对待。
-```````
+````````
 
-``````` .markdoc
+````````markdoc
 ::	audio/ogg	./laugh.ogg
 	audio/mpeg	./laugh.mp3
 	audio/wav	./laugh.wav
@@ -412,12 +410,12 @@ $$	formula expression row 1
 	
 	替代信息，诸如“你的浏览器不支持音频”。
 	不限于纯文本。
-```````
+````````
 
 &nbsp; &nbsp; &nbsp;This is also ok:  
 　　这样也行：
 
-``````` .markdoc
+````````markdoc
 ::	video/	./laugh
 	ogg	.ogv
 	mp4	.mp4
@@ -425,29 +423,29 @@ $$	formula expression row 1
 	
 	Your browser does not support video.
 	你的浏览器不支持视频。
-```````
+````````
 
 &nbsp; &nbsp; &nbsp;The syntax of audio and video is more complex than image, this is because the file types supported by each browser are different, maybe you want to apply them all. If you don't mind that, you can just write:  
 　　音频和视频的写法比图片复杂，这是因为不同浏览器支持的文件种类不同，可能你会想要逐一指定。如果你的用途中不包含这一点，那么你可以简写为：
 
-``````` .markdoc
+````````markdoc
 ::	video	./laugh.mp4
-```````
+````````
 
 
 ### [2.6 Semantic–Style Block／语义块](#user-content-2.6)<a id="user-content-2.6">&nbsp;</a>
 
 ### [2.6.1 Horizontal Line／水平线](#user-content-2.6.1)<a id="user-content-2.6.1">&nbsp;</a>
 
-``````` .markdoc
+````````markdoc
 ***
 
 ___
-```````
+````````
 
 #### [2.6.2 Block Quote／引文](#user-content-2.6.2)<a id="user-content-2.6.2">&nbsp;</a>
 
-``````` .markdoc
+````````markdoc
 >	block quote 1 row 1
 >	block quote 1 row 2
 
@@ -457,7 +455,7 @@ ___
 >	block quote 3 row 1
 	block quote 3 row 2
 >	block quote 3 row 3
-```````
+````````
 
 #### [2.6.3 Figure／插注](#user-content-2.6.3)<a id="user-content-2.6.3">&nbsp;</a>
 
@@ -467,68 +465,68 @@ ___
 &nbsp; &nbsp; &nbsp;Semantically, it's usually used for illustration, which has not a precise position, just for reference. Of cause, there could be a appendix table inside, or anything else.  
 　　从语义的角度讲，它通常用于插图，而且是那种在行文中没有精确位置，只是供参考的插图。当然，里面也可以放附录表，或其它任何东西。
 
-``````` .markdoc
+````````markdoc
 :	FigCaption (above)
 	====================================================================================================
 	|_	No	English                                  	简体中文
 	|	01	Oh stranger, tell the Lacedaemonians that	过路人，请捎个口信给斯巴达人，告诉他们，
 	|	02	we lie here, obedient to their words.    	为了他们的嘱托，我们躺在这里。
-```````
+````````
 
-``````` .markdoc
+````````markdoc
 :	::	./small.png
 	
 	FigCaption (below)
 	==================
-```````
+````````
 
-``````` .markdoc
+````````markdoc
 :	$$	E=mc^2
 	=======================
 	Mass–Energy Equivalence
-```````
+````````
 
-``````` .markdoc
+````````markdoc
 :<-	left float／居左（文字右侧环绕）
 
 ->:	right float／居右（文字左侧环绕）
-```````
+````````
 
 #### [2.6.4 Custom Field Set／自定义容器](#user-content-2.6.4)<a id="user-content-2.6.4">&nbsp;</a>
 
-``````` .markdoc
+````````markdoc
 type	content paragraph 1
 	
 	content paragraph 2
-```````
+````````
 
 &nbsp; &nbsp; &nbsp;Examples (you need to implement it via the programming api by yourself!):  
 　　例子（你需要通过编程接口自己实现！）：
 
-``````` .markdoc
+````````markdoc
 !	Mixed-types array is invalid! (Probably an error block)
-```````
+````````
 
-``````` .markdoc
+````````markdoc
 #	Note that mixed-types array is not recommended! (Probably a warning block)
-```````
+````````
 
 &nbsp; &nbsp; &nbsp;Block level symbols that not implemented, should be implemented by default like:  
 　　未实现的块级符号，应当被默认实现为类似：
 
-~~~~~~~ .html
+~~~~~~~~html
 <fieldset>
 	<legend>type</legend>
 	content paragraph
 </fieldset>
-~~~~~~~
+~~~~~~~~
 
 
 ### [2.7 Inline／行内语法](#user-content-2.7)<a id="user-content-2.7">&nbsp;</a>
 
 #### [2.7.1 Row Style／行样式](#user-content-2.7.1)<a id="user-content-2.7.1">&nbsp;</a>
 
-``````` .markdoc
+````````markdoc
      5en indent row (usually used in English)
 　　2em 缩进的行（通常用在中文里）
 
@@ -543,7 +541,7 @@ Right align row (method 2) ->|
 
 |-> Right align row (method 3)
 |-> 右对齐的行（方式三）
-```````
+````````
 
 #### [2.7.2 Text Style／字样式](#user-content-2.7.2)<a id="user-content-2.7.2">&nbsp;</a>
 
@@ -610,18 +608,18 @@ Right align row (method 2) ->|
 
 #### [2.8.1 Inline Decorator／行内装饰器](#user-content-2.8.1)<a id="user-content-2.8.1">&nbsp;</a>
 
-``````` .markdoc
+````````markdoc
 *MarkDoc*{: title=`a kind of e-book writing format` .coinage } is a { .coinage :}[markdown]{: title=`relative to markup` } style language.
 \
 { .row-class }to parent if there is no previous／无前即父{ .行样式 }
 \
 *MarkDoc*{: title=`一种电子书撰写格式` .生造词 } 是一个 { .生造词 :}[markdown]{: title=`相对于 markup 而言` } 风格的语言。
-```````
+````````
 
 &nbsp; &nbsp; &nbsp;means (in HTML):  
 　　意味着 HTML 中的：
 
-``````` .html
+````````html
 <p>
 	<span style="display:block;">
 		<em title="a kind of e-book writing format" class="coinage">MarkDoc</em> is a 
@@ -635,11 +633,11 @@ Right align row (method 2) ->|
 		<span title="相对于 markup 而言" class="生造词">markdown</span> 风格的语言。
 	</span>
 </p>
-```````
+````````
 
 #### [2.8.2 Block Decorator／块级装饰器](#user-content-2.8.2)<a id="user-content-2.8.2">&nbsp;</a>
 
-``````` .markdoc
+````````markdoc
 paragraph block
 >>>	.paragraph-class
 
@@ -657,12 +655,12 @@ heading
 *	>>>	.ul-li-1-class
 *	>>>	.ul-li-2-class
 >>>	.ul-class
-```````
+````````
 
 
 ### [2.9 Context Syntax／上下文语法](#user-content-2.9)<a id="user-content-2.9">&nbsp;</a>
 
-``````` .markdoc
+````````markdoc
 I need two auto ordered ["footnote"]{: mean }, the first#n#, and the second#[*Inline* format for simple content.]#.
 You ask why?
 Watch >>>wall<<< and ponder it. :small:
@@ -682,18 +680,18 @@ Watch >>>wall<<< and ponder it. :small:
 {mean}	title=`Not have to display at footer.<LF>不是必须在页脚显示。`
 
 <LF>	<U+000A>
-```````
+````````
 
 &nbsp; &nbsp; &nbsp;You can explicitly specify a position to display the "footnotes" (it's also the page break symbol):  
 　　你可以为“脚注”明确指定插入位置（它同时也是分页符）：
 
-``````` .markdoc
+````````markdoc
 ^^^
 
 ^^^	A4
 
 ^^^	A4 A5
-```````
+````````
 
 
 [3. Filename Extension／文件扩展名](#user-content-3)<a id="user-content-3">&nbsp;</a>
@@ -717,12 +715,12 @@ Watch >>>wall<<< and ponder it. :small:
 
 &nbsp; &nbsp; &nbsp;Place an `.editorconfig` file in the folder which the MarkDoc files placed, or their parent folder (unlimited layers), and write in below:
 
-``````` .editorconfig
+````````editorconfig
 # http://editorconfig.org
 
 [*.markdoc]
 trim_trailing_whitespace = false
-```````
+````````
 
 &nbsp; &nbsp; &nbsp;Windows prohibit you creating dot files directly, you need to use `.editorconfig.`, then system will automatically trim the ending dot for you.
 
@@ -736,12 +734,12 @@ ____
 
 　　在 MarkDoc 文档所在的文件夹或其父文件夹（不限层数）放置一个 `.editorconfig` 文件（Windows 禁止直接创建点文件，你需要在创建时使用 `.editorconfig.`，系统会自动为你剔除结尾的点），并在其中写上：
 
-``````` .editorconfig
+````````editorconfig
 # http://editorconfig.org
 
 [*.markdoc]
 trim_trailing_whitespace = false
-```````
+````````
 
 
 ### Parser／解析器
