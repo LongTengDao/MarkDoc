@@ -243,13 +243,6 @@ i)	ordered list style 5-3
 ```````
 
 ``````` .markdoc
-|	R1C1L1	R1C2L1
-	R1C1L2	R1C2L2
-|	R2C1L1	R2C2L1
-	R2C1L2	R2C2L2
-```````
-
-``````` .markdoc
 |_	head	head
 |	cell	cell
 |	cell	cell
@@ -267,6 +260,16 @@ i)	ordered list style 5-3
 |_	head	head
 |	cell	cell
 |	cell	cell
+```````
+
+``````` .markdoc
+|=	Multi-lines cell syntax example:
+	多行单元格语法示例：
+|_		A	B	C	D
+|	1	Line	Line	Line	Line
+|	2	Line 1	Line 1	Line 1	Line 1
+		Line 2	Line 2	Line 2	Line 2
+|	3	Line	Line	Line	Line
 ```````
 
 
