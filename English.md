@@ -500,13 +500,13 @@ Right align row (method 2) ->|
 | `很𠮷<ji2>利`               | 很<ruby>𠮷<rt>jí</rt></ruby>利      | `很<U+20BB7><ji2>利` should also be parsed correctly.          |
 | <code>\` code \`</code><br><code>\`\\\`<U+9F99>\\\`\`</code> | <code>\`&nbsp;code&nbsp;\`</code><br><code>\`龙\`</code> | Codes quoted by single back quote are allowed to contain escape format. |
 | <code>\`\` \\\` \`\`</code><br><code>\`\` \`\`\` \`\`</code><br><code>\`\`&nbsp;&nbsp;\`\`\`&nbsp;&nbsp;\`\`</code> | <code>\\\`</code><br><code>\`\`\`</code><br><code>&nbsp;\`\`\`&nbsp;</code> | Code quoted by two or more back quotes are not allowed to contain escape format, and must be wrapped inside by one space on each side, which will be trimmed. |
-| <code>\*\`lang\`\*\`.js\`</code> | <code><em>lang</em>.txt</code> | `<code><em>lang</em>.txt</code>` (HTML)                        |
 | `$E=mc^2$`                  | *E＝mc<sup><small>2</small></sup>*  | Math expressions wrapped by dollar will not parse escaped characters at all. |
 
 &nbsp; &nbsp; &nbsp;And some GitHub not support for previewing:
 
 |       MarkDoc                                            |       HTML                                                                                  |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| <code>\*\`lang\`\*\`.js\`</code>                         | `<code><em>lang</em>.txt</code>`                                                            |
 | `==mark==`                                               | `<mark style="background-color:yellow;">mark</mark>`                                        |
 | <code>\|\|bordered\|\|</code>                            | `<span style="border-style:solid;">bordered</span>`                                         |
 | `normal^^sup^^//sub//text`<br>`normal//sub//^^sup^^text` | `normal<small style="display:inline-block;vertical-align:-0.5em;">sup<br />sub</small>text` |
@@ -547,7 +547,8 @@ Right align row (method 2) ->|
 #### [2.8.1 Inline Decorator](#user-content-2.8.1)<a id="user-content-2.8.1">&nbsp;</a>
 
 ````````markdoc
-*MarkDoc*{: title=`a kind of e-book writing format` .coinage } is a { .coinage :}[markdown]{: title=`relative to markup` } style language.
+*MarkDoc*{: title=`a kind of e-book writing format` .coinage } is \
+a { .coinage :}[markdown]{: title=`relative to markup` } style language.
 to parent if there is no previous{ .row-class }
 ````````
 
@@ -556,7 +557,8 @@ to parent if there is no previous{ .row-class }
 ````````html
 <p>
 	<span style="display:block;">
-		<em title="a kind of e-book writing format" class="coinage">MarkDoc</em> is a <span title="relative to markup" class="coinage">markdown</span> style language.
+		<em title="a kind of e-book writing format" class="coinage">MarkDoc</em> is <wbr />
+		a <span title="relative to markup" class="coinage">markdown</span> style language.
 	</span>
 	<span style="display:block;" class="row-class">
 		to parent if there is no previous
