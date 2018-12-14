@@ -755,17 +755,17 @@ trim_trailing_whitespace = false
 
 &nbsp; &nbsp; &nbsp;Actually, The standard implementation is an example, because:
 
-1.	The only programming language I know well is JavaScript, and I can only provide full-stack implementations in that. Contributions from the community are needed, to complete implementations in other languages.
+1.	There could be many verbose details in the specification, if we enumerate the edge cases one by one. These fuzzy areas can refer to the standard implementation.
 	
-2.	There could be many verbose details in the specification, if we enumerate the edge cases one by one. These fuzzy areas can refer to the standard implementation.
+2.	The only programming language I know well is JavaScript, and I can only provide full-stack implementations in that. Contributions from the community are needed, to complete implementations in other languages.
 	
 3.	The format as parsed result I mainly used is HTML, if users need their MarkDoc to be transformed to other formats directly or indirectly, it still depends on the power of open source community.
 
 　　标准实现事实上是一个示例，因为：
 
-1.	我只会 JavaScript，只能提供该语言的全栈实现，其它语言需要来自社区的贡献，大家共同完成。
+1.	规范中有很多细说极其啰嗦，难以一一穷举的边缘情况，这些模糊地带可以参考标准实现的解析结果。
 	
-2.	规范中有很多细说极其啰嗦，难以一一穷举的边缘情况，这些模糊地带可以参考标准实现的解析结果。
+2.	我只会 JavaScript，只能提供该语言的全栈实现，其它语言需要来自社区的贡献，大家共同完成。
 	
 3.	我主要用到的是 HTML 格式的解析结果，如果使用者需要将 MarkDoc 直接或间接地译作其它文件格式，那依然需要依赖开源社区的力量。
 
