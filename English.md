@@ -1,6 +1,6 @@
 
 
-[MarkDoc (v0.12)](https://GitHub.com/LongTengDao/MarkDoc/)
+[MarkDoc (v0.13)](https://GitHub.com/LongTengDao/MarkDoc/)
 =================
 
 — A Markdown-like [jDoc](https://GitHub.com/LongTengDao/jDoc/)\-based e-book writing format by [LongTengDao](http://www.LongTengDao.com/).
@@ -509,7 +509,7 @@ Right align row (method 2) ->|
 | <code>\*\`lang\`\*\`.js\`</code>                         | `<code><em>lang</em>.txt</code>`                                     |
 | `==mark==`                                               | `<mark style="background-color:yellow;">mark</mark>`                 |
 | <code>\|\|bordered\|\|</code>                            | `<span style="border-style:solid;border-width:1px;">bordered</span>` |
-| `normal^^sup^^//sub//text`<br>`normal//sub//^^sup^^text` | `normal<small style="display:inline-block;vertical-align:-0.5em;">`<br>&nbsp;　　　　　　　　　　　　　　　　　　　　`sup<br />sub</small>text` |
+| `normal^^sup^^//sub//text`<br>`normal//sub//^^sup^^text` | `normal<small style="display:inline-block;font-size:0.5em;line-height:1;">`<br>&nbsp;　　　　　　　　　　　　　　　　　　　　　　　　`sup<br />sub</small>text` |
 
 #### [2.7.3 Link](#user-content-2.7.3)<a id="user-content-2.7.3">&nbsp;</a>
 
