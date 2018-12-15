@@ -661,7 +661,7 @@ trim_trailing_whitespace = false
 
 &nbsp; &nbsp; &nbsp;For developers, if you're implementing your own local/online preview interface, you might want to call an existing parser API instead of implementing one from scratch:
 
-&nbsp; &nbsp; &nbsp;<https://GitHub.com/LongTengDao/j-markdoc/>
+>	<https://GitHub.com/LongTengDao/j-markdoc/>
 
 
 ### Get Involved
