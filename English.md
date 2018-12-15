@@ -44,6 +44,8 @@ TOC
 3.	[Filename Extension](#user-content-3)
 	
 4.	[Standard Implementation](#user-content-4)
+	
+5.	[Specification Version](#user-content-5)
 
 
 [1. Philosophy](#user-content-1)<a id="user-content-1">&nbsp;</a>
@@ -671,4 +673,14 @@ trim_trailing_whitespace = false
 2.	The only programming language I know well is JavaScript, and I can only provide full-stack implementations in that. Contributions from the community are needed, to complete implementations in other languages.
 	
 3.	The format as parsed result I mainly used is HTML, if users need their MarkDoc to be transformed to other formats directly or indirectly, it still depends on the power of open source community.
+
+
+[5. Specification Version](#user-content-5)<a id="user-content-5">&nbsp;</a>
+--------------------------
+
+
+&nbsp; &nbsp; &nbsp;Before version 1.0, temporarily, we always increase the minor version number (0.\*) for every content change (whether backwards compatible or not). Examples, wording, and typography changes might not change the version.  
+&nbsp; &nbsp; &nbsp;And the version of the implementation should also start with the major and minor version number (like 0.n) which it's compatible with; implementation's own modification, can only increase the last part of the version number (0.N.\*).  
+&nbsp; &nbsp; &nbsp;This is not a rule, but a recommendation. If the (energetic) implementation could explicitly implement multi-version compatibility through the version number parameter in the API or other functional options, definitely it can.  
+&nbsp; &nbsp; &nbsp;After 1.0, MarkDoc will be stable, backwards compatible (if you have any suggestion, please submit an issue as soon as possible), and will provide more friendly downloads of different versions and specify changes between them. Currently, changes can only be viewed through git records, if necessary.
 
