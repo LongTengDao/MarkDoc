@@ -408,9 +408,7 @@ ___
 
 #### [2.6.3 Figure](#user-content-2.6.3)<a id="user-content-2.6.3">&nbsp;</a>
 
-&nbsp; &nbsp; &nbsp;In syntax, figure is a named list item without name.
-
-&nbsp; &nbsp; &nbsp;Semantically, it's usually used for illustration, which has not a precise position, just for reference. Of cause, there could be a appendix table inside, or anything else.
+&nbsp; &nbsp; &nbsp;Figure is usually used for illustration, which has not a precise position, just for reference. Of cause, there could be a appendix table inside, or anything else.
 
 ````````markdoc
 :	FigCaption (above)
