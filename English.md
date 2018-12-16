@@ -1,6 +1,6 @@
 
 
-[MarkDoc (v0.13)](https://GitHub.com/LongTengDao/MarkDoc/)
+[MarkDoc (v0.14)](https://GitHub.com/LongTengDao/MarkDoc/)
 =================
 
 — A Markdown-like [jDoc](https://GitHub.com/LongTengDao/jDoc/)\-based e-book writing format by [LongTengDao](http://www.LongTengDao.com/).
@@ -621,6 +621,33 @@ Watch >>>wall<<< and ponder it. :small:
 ^^^	A4
 
 ^^^	A4 A5
+````````
+
+&nbsp; &nbsp; &nbsp;You will be able to write a more elaborate table layout by context syntax:
+
+````````markdoc
+||	/     0     \
+	| 1 |   1   |
+	+---+-------+
+	| 1 | 1 | 1 |
+	+===+===+===+
+	|   |   1   |
+	| 2 +---+---+
+	|   |3  |  4|
+	+===+===+===+
+	|     1     |
+	+-----------+
+	\     0     /
+|0|	The table caption.
+	Only one caption.
+|1|	The content of the cell.
+	Center.
+|2|	The content of the cell.
+	Center and middle.
+|3|	The content of the cell.
+	Left.
+|4|	The content of the cell.
+	Right.
 ````````
 
 
