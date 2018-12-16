@@ -1,7 +1,7 @@
 
 
-[MarkDoc (v0.14)](https://GitHub.com/LongTengDao/MarkDoc/)
-=================
+[MarkDoc (v0.14.1)](https://GitHub.com/LongTengDao/MarkDoc/)
+===================
 
 — A Markdown-like [jDoc](https://GitHub.com/LongTengDao/jDoc/)\-based e-book writing format by [LongTengDao](http://www.LongTengDao.com/).
 
@@ -59,9 +59,10 @@ TOC
 
 &nbsp; &nbsp; &nbsp;The choice of symbols in MarkDoc mainly draws on Markdown (and extra syntax from various implementations), which is a very reasonable combination of historical practices. In addition,
 
-*	Block-level media syntax (`::` add Tab) is derived from not only emoji syntax in Markdown on GitHub. but also the file including syntax in AsciiDoc;
+*	The complex table syntax (see [2.9 Context Syntax](#user-content-2.9)) is derived from the table syntax in reStructuredText;
+*	Block-level media syntax (`::` add Tab) is derived from emoji syntax in Markdown on GitHub, and the file including syntax in AsciiDoc;
 *	Inline media syntax (`{{ picture_address }}`) reference the Mustache interpolation syntax;
-*	Unicode characters eval syntax (such as `<U+000A>`) refer to the Unicode standard notation, so as to avoid the `\` with both escape and eval function, which is really confusing.
+*	Unicode characters eval syntax (such as `<U+000A>`) reference the Unicode standard notation, so as to avoid the `\` with both escape and eval function, which is really confusing.
 
 &nbsp; &nbsp; &nbsp;Other symbols not mentioned above come from personal practical experience based on general reason.
 
@@ -704,8 +705,8 @@ trim_trailing_whitespace = false
 --------------------------
 
 
-&nbsp; &nbsp; &nbsp;Before version 1.0, temporarily, we always increase the minor version number (0.\*) for every content change (whether backwards compatible or not). Examples, wording, and typography changes might not change the version.  
-&nbsp; &nbsp; &nbsp;And the version of the implementation should also start with the major and minor version number (like 0.n) which it's compatible with; implementation's own modification, can only increase the last part of the version number (0.N.\*).  
+&nbsp; &nbsp; &nbsp;Before version 1.0, temporarily, we always increase the minor version number (0.<u>\*</u>) for every content change (whether backwards compatible or not). Examples, wording, and typography changes might not change the version, if it does, the last part of the version number (like 0.14.<u>1</u>) will be changed.  
+&nbsp; &nbsp; &nbsp;And the version of the implementation should also start with the major and minor version number (like <u>0.14</u>.0) which it's compatible with; implementation's own modification, can only increase the last part of the version number (like 0.14.<u>1</u>).  
 &nbsp; &nbsp; &nbsp;This is not a rule, but a recommendation. If the (energetic) implementation could explicitly implement multi-version compatibility through the version number parameter in the API or other functional options, definitely it can.  
 &nbsp; &nbsp; &nbsp;After 1.0, MarkDoc will be stable, backwards compatible (if you have any suggestion, please submit an issue as soon as possible), and will provide more friendly downloads of different versions and specify changes between them. Currently, changes can only be viewed through git records, if necessary.
 
