@@ -1,9 +1,9 @@
 
 
-[MarkDoc (v0.14.1)](https://GitHub.com/LongTengDao/MarkDoc/)
+[MarkDoc (v0.14.2)](https://GitHub.com/LongTengDao/MarkDoc/)
 ===================
 
-— A Markdown-like [jDoc](https://GitHub.com/LongTengDao/jDoc/)\-based e-book writing format by [LongTengDao](http://www.LongTengDao.com/).
+— A Markdown-like [TabDoc](https://GitHub.com/LongTengDao/TabDoc/)\-based e-book writing format by [LongTengDao](http://www.LongTengDao.com/).
 
 
 TOC
@@ -52,9 +52,9 @@ TOC
 ---------------------
 
 
-&nbsp; &nbsp; &nbsp;MarkDoc's underlying format, jDoc, is a format invented for writing books on almost any scale. For book writing, it is acceptable to freely use the most appropriate symbols for each book, and to write a separate typesetting program for each book. But when writing small things like articles, posts, and even comments, or compiling medium-sized papers or technical documents with relatively fixed purposes, this is awkward and unsafe.
+&nbsp; &nbsp; &nbsp;MarkDoc's underlying format, TabDoc, is a format invented for writing books on almost any scale. For book writing, it is acceptable to freely use the most appropriate symbols for each book, and to write a separate typesetting program for each book. But when writing small things like articles, posts, and even comments, or compiling medium-sized papers or technical documents with relatively fixed purposes, this is awkward and unsafe.
 
-&nbsp; &nbsp; &nbsp;MarkDoc is the very solution for this problem. It's sort of a dialect of jDoc, with the most useful symbolic functionalities built-in.
+&nbsp; &nbsp; &nbsp;MarkDoc is the very solution for this problem. It's sort of a dialect of TabDoc, with the most useful symbolic functionalities built-in.
 
 
 &nbsp; &nbsp; &nbsp;The choice of symbols in MarkDoc mainly draws on Markdown (and extra syntax from various implementations), which is a very reasonable combination of historical practices. In addition,
@@ -69,9 +69,9 @@ TOC
 
 **Note:**
 
-&nbsp; &nbsp; &nbsp;MarkDoc is based on the jDoc format, so a valid MarkDoc document should first be a well-formatted jDoc document. Although jDoc is a very, very simple format (with almost only two key rules, line feed and tab indentation), if you don't pay attention, it's still possible to get a WTF rendering result.
+&nbsp; &nbsp; &nbsp;MarkDoc is based on the TabDoc format, so a valid MarkDoc document should first be a well-formatted TabDoc document. Although TabDoc is a very, very simple format (with almost only two key rules, line feed and tab indentation), if you don't pay attention, it's still possible to get a WTF rendering result.
 
-&nbsp; &nbsp; &nbsp;The biggest difference between jDoc and Markdown is that jDoc is sensitive to indentation of empty lines. Therefore, when reading this documentation (and writing books or articles using MarkDoc), you should pay particular attention to how many tabs there are in the empty lines of the example code blocks (on GitHub, you can only check this by select the text, to see how wide the blue background is).
+&nbsp; &nbsp; &nbsp;The biggest difference between TabDoc and Markdown is that TabDoc is sensitive to indentation of empty lines. Therefore, when reading this documentation (and writing books or articles using MarkDoc), you should pay particular attention to how many tabs there are in the empty lines of the example code blocks (on GitHub, you can only check this by select the text, to see how wide the blue background is).
 
 
 [2. Syntax Specification](#user-content-2)<a id="user-content-2">&nbsp;</a>
@@ -667,9 +667,9 @@ Watch >>>wall<<< and ponder it. :small:
 
 &nbsp; &nbsp; &nbsp;For writers, you can edit the MarkDoc file using any text editor. I'm developing [jMarkDoc](https://GitHub.com/LongTengDao/jMarkDoc/) (a MarkDoc reader) that will give you a standalone live preview.
 
-&nbsp; &nbsp; &nbsp;Usually these editor software allows you to set the Tab character visible (you can enable the feature for `.markdoc` alone), and this will greatly facilitate the edit of any file format based on jDoc.
+&nbsp; &nbsp; &nbsp;Usually these editor software allows you to set the Tab character visible (you can enable the feature for `.markdoc` alone), and this will greatly facilitate the edit of any file format based on TabDoc.
 
-&nbsp; &nbsp; &nbsp;Most of them, however, are too smart to automatically remove whitespace characters of empty lines, which can be devastating for MarkDoc that based on jDoc. Unfortunately, many programs don't allow you to turn this feature off. But fortunately, `.editorconfig` allows you to set that, which these text editors that smart enough can also support. `.editorconfig`.
+&nbsp; &nbsp; &nbsp;Most of them, however, are too smart to automatically remove whitespace characters of empty lines, which can be devastating for MarkDoc that based on TabDoc. Unfortunately, many programs don't allow you to turn this feature off. But fortunately, `.editorconfig` allows you to set that, which these text editors that smart enough can also support. `.editorconfig`.
 
 &nbsp; &nbsp; &nbsp;Place an `.editorconfig` file in the folder which the MarkDoc files placed, or their parent folder (unlimited layers), and write in below:
 
