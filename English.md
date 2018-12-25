@@ -1,6 +1,6 @@
 
 
-[MarkDoc (v0.14.2)](https://GitHub.com/LongTengDao/MarkDoc/)
+[MarkDoc (v0.14.3)](https://GitHub.com/LongTengDao/MarkDoc/)
 ===================
 
 — A Markdown-like [TabDoc](https://GitHub.com/LongTengDao/TabDoc/)\-based e-book writing format by [LongTengDao](http://www.LongTengDao.com/).
@@ -71,7 +71,8 @@ TOC
 
 &nbsp; &nbsp; &nbsp;MarkDoc is based on the TabDoc format, so a valid MarkDoc document should first be a well-formatted TabDoc document. Although TabDoc is a very, very simple format (with almost only two key rules, line feed and tab indentation), if you don't pay attention, it's still possible to get a WTF rendering result.
 
-&nbsp; &nbsp; &nbsp;The biggest difference between TabDoc and Markdown is that TabDoc is sensitive to indentation of empty lines. Therefore, when reading this documentation (and writing books or articles using MarkDoc), you should pay particular attention to how many tabs there are in the empty lines of the example code blocks (on GitHub, you can only check this by select the text, to see how wide the blue background is).
+&nbsp; &nbsp; &nbsp;An important defference between this kind of format and Markdown is, only Tab is the valid indent character, spaces will only be treated as normal inline characters (or part of inline syntax).  
+&nbsp; &nbsp; &nbsp;But the biggest difference is that this kind of format is sensitive to indentation of empty lines. Therefore, when reading this documentation (and writing books or articles using MarkDoc), you should pay particular attention to how many tabs there are in the empty lines of the example code blocks (on GitHub, you can only check this by select the text, to see how wide the blue background is).
 
 
 [2. Syntax Specification](#user-content-2)<a id="user-content-2">&nbsp;</a>
