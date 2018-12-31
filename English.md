@@ -1,7 +1,7 @@
 
 
-[MarkDoc (v0.14.3)](https://GitHub.com/LongTengDao/MarkDoc/)
-===================
+[MarkDoc (v0.15)](https://GitHub.com/LongTengDao/MarkDoc/)
+=================
 
 — A Markdown-like [TabDoc](https://GitHub.com/LongTengDao/TabDoc/)\-based e-book writing format by [LongTengDao](http://www.LongTengDao.com/).
 
@@ -597,6 +597,8 @@ heading
 I need auto ordered ["footnote"]{: mean }, the first#n#, and the second#[*Inline* format for simple content.]#.
 You ask why?
 Watch >>>wall<<< and ponder it. :small:
+
+::	small
 
 我需要自动编号的[“脚注”]{: mean }，第一个##n##，和第二个##[简单内容的*内联*写法。]##。
 你问为什么？
