@@ -1,6 +1,6 @@
 
 
-[MarkDoc (v0.15)](https://GitHub.com/LongTengDao/MarkDoc/)
+[MarkDoc (v0.16)](https://GitHub.com/LongTengDao/MarkDoc/)
 =================
 
 — A Markdown-like [TabDoc](https://GitHub.com/LongTengDao/TabDoc/)\-based e-book writing format by [LongTengDao](http://www.LongTengDao.com/).
@@ -20,6 +20,11 @@ TOC
 		*	[2.3.2 Ordered List](#user-content-2.3.2)
 		*	[2.3.3 Foldable List](#user-content-2.3.3)
 	*	[2.4 Table](#user-content-2.4)
+		*	[2.4.1 Rows and Columns](#user-content-2.4.1)
+		*	[2.4.2 Column Head](#user-content-2.4.2)
+		*	[2.4.3 Table Caption](#user-content-2.4.3)
+		*	[2.4.4 Multi-lines Cell](#user-content-2.4.4)
+		*	[2.4.5 Properties Table](#user-content-2.4.5)
 	*	[2.5 Pre-formatted Block](#user-content-2.5)
 		*	[2.5.1 Highlight Code](#user-content-2.5.1)
 		*	[2.5.2 Renderable Code](#user-content-2.5.2)
@@ -199,16 +204,22 @@ i)	ordered list style 5-3
 
 ### [2.4 Table](#user-content-2.4)<a id="user-content-2.4">&nbsp;</a>
 
+#### [2.4.1 Rows and Columns](#user-content-2.4.1)<a id="user-content-2.4.1">&nbsp;</a>
+
 ````````markdoc
 |	cell	cell
 |	cell	cell
 ````````
+
+#### [2.4.2 Column Head](#user-content-2.4.2)<a id="user-content-2.4.2">&nbsp;</a>
 
 ````````markdoc
 |_	head	head
 |	cell	cell
 |	cell	cell
 ````````
+
+#### [2.4.3 Table Caption](#user-content-2.4.3)<a id="user-content-2.4.3">&nbsp;</a>
 
 ````````markdoc
 |_	head	head
@@ -224,6 +235,8 @@ i)	ordered list style 5-3
 |	cell	cell
 ````````
 
+#### [2.4.4 Multi-lines Cell](#user-content-2.4.4)<a id="user-content-2.4.4">&nbsp;</a>
+
 ````````markdoc
 |=	Multi-lines cell syntax example:
 |_		A	B	C	D
@@ -231,6 +244,19 @@ i)	ordered list style 5-3
 |	2	line 1	line 1	line 1	line 1
 		line 2	line 2	line 2	line 2
 |	3	line	line	line	line
+````````
+
+#### [2.4.5 Properties Table](#user-content-2.4.5)<a id="user-content-2.4.5">&nbsp;</a>
+
+````````markdoc
+|=	Properties table syntax example:
+|{	name=[Name] size=[Size] desc=[Description]
+|name	item 1 name column
+ size	item 1 size column
+ desc	item 1 desc column
+|name	item 2 name column
+ size	item 2 size column
+ desc	item 2 desc column
 ````````
 
 
@@ -630,7 +656,7 @@ Watch >>>wall<<< and ponder it. :small:
 &nbsp; &nbsp; &nbsp;You will be able to write a more elaborate table layout by context syntax:
 
 ````````markdoc
-||	/     0     \
+| |	/     0     \
 	| 1 |   1   |
 	+---+-------+
 	| 1 | 1 | 1 |
