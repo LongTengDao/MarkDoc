@@ -1,7 +1,7 @@
 
 
-[MarkDoc (v0.16)](https://GitHub.com/LongTengDao/MarkDoc/)
-=================
+[MarkDoc (v0.16.1)](https://GitHub.com/LongTengDao/MarkDoc/)
+===================
 
 — A Markdown-like [TabDoc](https://GitHub.com/LongTengDao/TabDoc/)\-based e-book writing format by [LongTengDao](http://www.LongTengDao.com/).
 
@@ -657,8 +657,9 @@ Watch >>>wall<<< and ponder it. :small:
 
 ````````markdoc
 | |	/     0     \
-	| 1 |   1   |
 	+---+-------+
+	| 1 |   1   |
+	+---+---+---+
 	| 1 | 1 | 1 |
 	+===+===+===+
 	|   |   1   |
