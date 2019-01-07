@@ -1,7 +1,7 @@
 
 
-[MarkDoc (v0.16.1)](https://GitHub.com/LongTengDao/MarkDoc/)
-===================
+[MarkDoc (v0.17)](https://GitHub.com/LongTengDao/MarkDoc/)
+=================
 
 — A Markdown-like [TabDoc](https://GitHub.com/LongTengDao/TabDoc/)\-based e-book writing format by [LongTengDao](http://www.LongTengDao.com/).
 
@@ -519,7 +519,8 @@ Right align row (method 2) ->|
 | <code>pre&nbsp;&nbsp;spaces</code> | pre&nbsp;&nbsp;spaces        | Two or more spaces is reserved.                                |
 | `__strong__`                | __strong__                          |                                                                |
 | `*emphasize*`               | *emphasize*                         |                                                                |
-| `\*escaped*`                | \*escaped*                          | The back slash is the escape symbol.                           |
+| `\*escaped\*`               | \*escaped\*                         | The back slash is the escape symbol.                           |
+| `\*partly escaped*`<br>`*`  | \*partly escaped\*<br>\*            | If a syntax mark is not matched, generate a warning message.   |
 | `<U+9F99>`<br>`<U+D842+DFB7>`<br>`<U+20BB7>` | 龙<br>𠮷<br>𠮷     | Unicode escape format is allowed.                              |
 | `~~delete~~`                | ~~delete~~                          |                                                                |
 | `++insert++`                | <ins>insert</ins>                   |                                                                |
