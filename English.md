@@ -1,6 +1,6 @@
 
 
-[MarkDoc (v0.17)](https://GitHub.com/LongTengDao/MarkDoc/)
+[MarkDoc (v0.18)](https://GitHub.com/LongTengDao/MarkDoc/)
 =================
 
 — A Markdown-like [TabDoc](https://GitHub.com/LongTengDao/TabDoc/)\-based e-book writing format by [LongTengDao](http://www.LongTengDao.com/).
@@ -504,11 +504,7 @@ type	content paragraph 1
 
 |-> Center align row <-|
 
-|-> Right align row (method 1) ->|
-
-Right align row (method 2) ->|
-
-|-> Right align row (method 3)
+|-> Right align row ->|
 ````````
 
 #### [2.7.2 Text Style](#user-content-2.7.2)<a id="user-content-2.7.2">&nbsp;</a>
